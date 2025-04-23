@@ -1,3 +1,6 @@
+#REALIZADO POR: Sharon R. Ortiz Ramírez
+#Fecha: 23/04/2025
+
 #Se define la función que hará la validación de campos
 def es_numero(valor):
     try:
