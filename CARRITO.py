@@ -1,4 +1,4 @@
-cantidad = int(input("¿Cuántos productos va a llevar el cliente? (rango 1 a 5): "))
+cantidad = int(input("¿Cuántos productos va a llevar el cliente? (rango 1 a 4): "))
 pago = print("¿Pagará con tarjeta? ")
 if cantidad > 0:
     if cantidad == 1:
