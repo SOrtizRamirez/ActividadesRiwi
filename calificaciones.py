@@ -27,13 +27,13 @@ while parar:
     for n in range(len(lista)): #Se inicia bucle for para saber cuántos números de la LISTA son 
         if numero1 > lista[n]: #Mayores que el número ingresado con anterioridad
             tempo += 1 #Otra variable que contará cuántos números tenemos, pero esta vez menores.
-    if numero >= 0 and numero <= 100:
-        parar = True
-        print("Calificaicones válidas.")
-    else:
-        parar = False 
-        print("Calificaciones inválidas, deben ser mayores o iguales a 0 y menores o iguales a 100. El programa se cerrará.")
-        break
+    if numero >= 0 and numero <= 100: #Se valida que el número sea mayor o igual a 0 y menor o igual a 100
+        parar = True #Si se cumple, entonces el ciclo sigue
+        print("Calificaicones válidas.") #Y el usuario sabrá que sí son válidas
+    else: #Si no se cumple
+        parar = False #El ciclo no seguirá
+        print("Calificaciones inválidas, deben ser mayores o iguales a 0 y menores o iguales a 100. El programa se cerrará.") #El usuario sabrá
+        break #Y se romperá el ciclo
 
     promedio = concatenar/(temp) #Se saca el promedio
     print("El promedio de las calificaciones ingresadas es de: ", promedio) #Se imprime el promedio
