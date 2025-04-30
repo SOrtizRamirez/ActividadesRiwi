@@ -8,7 +8,7 @@ concatenar: float = 0
 lista: list = []
 tempo: int = 0
 temp:int = 0
-parar = True
+parar: bool = True
 
 while parar:
     lista1: str = input("Ingrese la lista de calificaciones separadas por coma (,), recuerde terminar con la coma (,): ") #Se pide que ingrese los datos
