@@ -11,7 +11,7 @@ temp:int = 0
 parar: bool = True
 
 while parar:
-    lista1: str = input("Ingrese la lista de calificaciones separadas por coma (,), recuerde terminar con la coma (,): ") #Se pide que ingrese los datos
+    lista1: str = input("Ingrese la lista de calificaciones separadas por coma (,), recuerde terminar con una coma (,): ") #Se pide que ingrese los datos
     numero1 = int(input("Ingrese el número a comparar: ")) #Ingreso de datos 2.
     for i in lista1: #Se inicia el bucle for para añadir los números a la lista
         if i != ",": #Mientras la variable i sea diferente de , entonces
