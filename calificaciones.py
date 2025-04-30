@@ -1,5 +1,5 @@
 #Hecho por: Sharon R. Ortiz Ramírez
-#Fecha: 29/04/2025
+#Fecha: 30/04/2025
 
 #Se declaran las variables y su tipo
 texto: str = ""
