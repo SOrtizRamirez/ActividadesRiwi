@@ -1,3 +1,5 @@
+#Hecho por: Sharon R. Ortiz Ramírez
+#Fecha: 05/05/2025
 import pandas as pd
 
 # Function to upload books from excel
