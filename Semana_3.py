@@ -1,5 +1,5 @@
 #Hecho por: Sharon R. Ortiz Ramírez
-#Fecha: 05/05/2025
+#Fecha: 08/05/2025
 import pandas as pd
 
 # Function to upload products from excel
